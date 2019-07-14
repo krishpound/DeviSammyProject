@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+
+  <threadsafe>true</threadsafe>
+  <sessions-enabled>false</sessions-enabled>
+  <runtime>java8</runtime>
+  <application>fashiontrack</application>
+  
+  <!--  
+  <env-variables>
+    <env-var name="GOOGLE_APPLICATION_CREDENTIALS" value="/Users/christopherpound/cloud/fashiontrack/serviceaccount/fashiontrack-34283659daae.json"></env-var>
+    <env-var name="CLOUD_SQL_INSTANCE_NAME" value="fashiontrack:us-east4:fashiontrack-postgres-db" />
+    <env-var name="DB_USER" value="krishpound" />
+    <env-var name="DB_PASS" value="DHARSHINI" />
+    <env-var name="DB_NAME" value="fashion" />
+  </env-variables>
+  -->
+  
+  <system-properties>
+    <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+ </system-properties>
+</appengine-web-app>

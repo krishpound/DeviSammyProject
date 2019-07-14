@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Verdana";
+}
+
+h1 {
+
+  	display: block;
+  	font-size: 2em;
+  	margin-top: 0.67em;
+  	margin-bottom: 0.67em;
+  	margin-left: 0;
+  	margin-right: 0;
+  	font-weight: bold;
+  	font-family: "Verdana";
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: "Verdana";
+}
+
+table.visionData {
+	width: 90%
+}
+table.cloudTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 80%;
+}
+td {
+	font-family: "Verdana";
+}
+
+td.visionData1 {
+	text-align: left;
+	font-family: "Courier New";
+	width: 35%;
+}
+td.visionData2 {
+	text-align: left;
+	font-family: "Courier New";
+	width: 65%;	
+}
+td.tableData {
+	border: 1px solid black;
+	text-align: left;
+	font-family: "Courier New";
+	width: 25%;
+}
+td.tableDataWide {
+	border: 1px solid black;
+	text-align: left;
+	font-family: "Courier New";
+	width: 40%;
+}
+th.visionData {
+	text-align: left;
+	font-family: "Courier New";
+}
+th.tableData {
+	border: 1px solid black;
+	background-color: #bde9ba; 
+	text-align: left;
+	font-family: "Verdana";	
+}
+img {
+	border: 1px solid #000000;
+  	max-width: 60%;
+  	image-orientation: from-image;
+  
+}
+#imageInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 25%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+#labelInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 25%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 90%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+  background-color: #DBFACC;
+}
+
+#myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+
+
+

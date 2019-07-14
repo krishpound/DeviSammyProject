@@ -1,0 +1,11 @@
+com/krishdevi/calif/TableObject.class
+com/krishdevi/calif/VisionLabel.class
+com/krishdevi/calif/Vision.class
+com/krishdevi/calif/PersistVisionAI.class
+com/krishdevi/calif/VisionObject.class
+com/krishdevi/calif/DataAccess.class
+com/krishdevi/calif/ObjectifyWebFilter.class
+com/krishdevi/calif/KrishServlet.class
+com/krishdevi/calif/SearchImages.class
+com/krishdevi/calif/HelloAppEngine.class
+com/krishdevi/calif/PostgreSqlServlet.class
